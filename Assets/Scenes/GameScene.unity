@@ -478,6 +478,7 @@ GameObject:
   - component: {fileID: 916173929}
   - component: {fileID: 916173931}
   - component: {fileID: 916173930}
+  - component: {fileID: 916173932}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -658,6 +659,20 @@ MonoBehaviour:
   m_DefaultActionMap: OnFoot
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &916173932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916173924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a17eca37870154aab1162e4c699484, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLook
+  mouseSensitivity: 50
+  cam: {fileID: 330585546}
 --- !u!1 &1736945631
 GameObject:
   m_ObjectHideFlags: 0
